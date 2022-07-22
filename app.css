@@ -55,6 +55,8 @@ body {
   width: 90%;
   height: 2rem;
   font-size: 1.2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   padding-left: 1.5rem;
   text-align: end;
   border: solid 0.2px hsl(189, 41%, 97%);
@@ -158,6 +160,8 @@ body {
   height: 2rem;
   font-size: 1.2rem;
   padding-left: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   text-align: end;
   border: solid 0.2px hsl(189, 41%, 97%);
   border-radius: 0.2rem;
@@ -233,7 +237,7 @@ body {
   overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
   .split {
     font-size: 1.5rem;
   }
