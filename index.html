@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h4 class="split">SPLI <br> TTER</h4>
+
+    <div class="container">
+      <div class="bill-card">
+        <div id="bill">Bill</div>
+        <div class="fee">
+          <input id="paid-amount" type="text" placeholder="0"  />
+        </div>
+        <div id="select">Select Tip %</div>
+        <div class="tip-percent">
+          <div class="percent">5%</div>
+          <div class="percent">10%</div>
+          <div class="percent">15%</div>
+          <div class="percent">25%</div>
+          <div class="percent">50%</div>
+          <div><input id="custom" type="text" placeholder="Custom" /></div>
+        </div>
+        <div class="num"><div>Number of People</div> <div id="zero">Can't be Zero</div> </div>
+        <div class="pop">
+          <input id="population" type="text" placeholder="0" />
+        </div>
+      </div>
+      <div class="tip-result">
+        <div class="cocky">
+          <div>
+            <div class="tot">Tip Amount</div>
+            <div class="per">/ person</div>
+          </div>
+          <div class="dollar-bal" id="tip-person">$0.00</div>
+        </div>
+        <div class="squady">
+          <div>
+            <div class="tot">Total</div>
+            <div class="per">/ person</div>
+          </div>
+          <div class="dollar-bal" id="total-person">$0.00</div>
+        </div>
+
+        <div class="reset"><button id="clear">Reset</button></div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
